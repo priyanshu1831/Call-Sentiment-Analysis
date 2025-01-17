@@ -186,7 +186,7 @@ def show_login_page():
                 st.session_state.username = username
                 st.success("Login successful!")
                 time.sleep(1)
-                st.rerun()
+                st.experimental_rerun()
             else:
                 st.error("Invalid username or password")
                 return False
@@ -237,6 +237,34 @@ def show_register_page():
             else:
                 st.error("Username already exists")
                 return False
+
+def call_api(transcript):
+    """Call the analysis API with proper URL."""
+    try:
+        # Use the Railway-provided URL with the correct port
+        api_url = "http://call-sentiment-analysis.railway.internal:8080"
+        
+        response = requests.post(
+            api_url,
+            json={'transcript': transcript},
+            timeout=30
+        )
+        
+        response.raise_for_status()  # Raise error for bad status codes
+        
+        if response.status_code == 200:
+            return process_api_response(response.json())
+        else:
+            st.error(f"API Error: {response.status_code}")
+            return None
+            
+    except requests.exceptions.RequestException as e:
+        st.error(f"Connection Error: {str(e)}")
+        st.info("Please check if the backend service is running")
+        return None
+    except Exception as e:
+        st.error(f"Error: {str(e)}")
+        return None
 
 def process_api_response(response_data):
     """Process and normalize API response data."""
@@ -615,7 +643,7 @@ def main():
         if st.sidebar.button("Logout 🚪"):
             st.session_state.user_id = None
             st.session_state.username = None
-            st.rerun()
+            st.experimental_rerun()
         
         # Show user's analysis history
         show_user_history()
@@ -636,6 +664,14 @@ def main():
         
         if uploaded_file:
             try:
+                # Show file details
+                file_details = {
+                    "Filename": uploaded_file.name,
+                    "Size": f"{uploaded_file.size / 1024:.1f} KB",
+                    "Type": uploaded_file.type
+                }
+                st.text(f"Analyzing: {file_details['Filename']}")
+                
                 # Save file
                 storage = FileStorage()
                 filename = storage.save_transcript(
@@ -645,11 +681,22 @@ def main():
                 )
                 
                 # Parse transcript
-                if uploaded_file.type == "text/plain":
-                    text = uploaded_file.read().decode()
-                    transcript = parse_transcript(text)
-                else:
-                    transcript = json.load(uploaded_file)
+                try:
+                    if uploaded_file.type == "text/plain":
+                        text = uploaded_file.read().decode()
+                        with st.expander("View Raw Transcript"):
+                            st.text(text)
+                        transcript = parse_transcript(text)
+                    else:
+                        transcript = json.load(uploaded_file)
+                    
+                    # Debug view of parsed transcript
+                    with st.expander("View Parsed Transcript"):
+                        st.json(transcript[:5])  # Show first 5 entries
+                    
+                except Exception as e:
+                    st.error(f"Error parsing transcript: {str(e)}")
+                    st.stop()
                 
                 if not transcript:
                     st.error("No valid transcript content found!")
@@ -658,36 +705,74 @@ def main():
                 # Analyze transcript
                 with st.spinner("🔍 Analyzing transcript..."):
                     try:
+                        # Make API call
+                        api_url = "https://call-sentiment-analysis-production.up.railway.app/analyze"
+                        
                         response = requests.post(
-                            'http://localhost:5000/analyze',
+                            api_url,
                             json={'transcript': transcript},
+                            headers={'Content-Type': 'application/json'},
                             timeout=30
                         )
                         
+                        # Debug response
+                        with st.expander("Debug: API Response"):
+                            st.json(response.json())
+                        
                         if response.status_code == 200:
+                            # Process response
                             results = process_api_response(response.json())
                             
-                            # Save analysis results
-                            storage.save_analysis(
-                                st.session_state.user_id,
-                                filename,
-                                results
-                            )
-                            
-                            # Show results
-                            show_analysis_results(results)
+                            if results:
+                                # Save analysis results
+                                storage.save_analysis(
+                                    st.session_state.user_id,
+                                    filename,
+                                    results
+                                )
+                                
+                                # Show success message
+                                st.success("✅ Analysis completed successfully!")
+                                
+                                # Show results
+                                show_analysis_results(results)
+                                
+                                # Offer download
+                                st.download_button(
+                                    "💾 Download Analysis Results",
+                                    data=json.dumps(results, indent=2),
+                                    file_name=f"analysis_{datetime.now().strftime('%Y%m%d_%H%M')}.json",
+                                    mime="application/json"
+                                )
+                            else:
+                                st.error("Error processing analysis results")
                         else:
                             st.error(f"Analysis failed: {response.text}")
+                            st.json(response.json())  # Show error details
                     
                     except requests.exceptions.RequestException as e:
                         st.error(f"Error connecting to analysis service: {str(e)}")
-                        st.info("Please make sure the backend server is running.")
+                        st.info("""
+                        Please check:
+                        1. Backend service is running
+                        2. API URL is correct
+                        3. Network connection is stable
+                        """)
+                        with st.expander("Debug Details"):
+                            st.code(str(e))
+                        st.stop()
+                    
+                    except Exception as e:
+                        st.error(f"Unexpected error: {str(e)}")
+                        with st.expander("Debug Details"):
+                            st.code(traceback.format_exc())
                         st.stop()
                 
             except Exception as e:
-                st.error(f"Error: {str(e)}")
+                st.error(f"Error processing file: {str(e)}")
                 with st.expander("Debug Details"):
                     st.code(traceback.format_exc())
+                st.info("Please check your transcript format and try again.")
 
 if __name__ == "__main__":
     main()

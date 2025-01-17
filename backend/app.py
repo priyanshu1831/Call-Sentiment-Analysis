@@ -1,5 +1,6 @@
 from collections import defaultdict
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import numpy as np
 from sentiment_analyzer import ConversationAnalyzer
 import logging
@@ -7,6 +8,13 @@ import time
 
 app = Flask(__name__)
 analyzer = ConversationAnalyzer(debug_mode=True)
+CORS(app)
+
+ALLOWED_ORIGINS = [
+    'https://call-sentiment-analysis-production.up.railway.app',
+    'http://call-sentiment-analysis.railway.internal:8080',
+    'http://localhost:8501'
+]   
 
 @app.route('/analyze', methods=['POST'])
 def analyze_conversation():
@@ -99,4 +107,4 @@ def analyze_conversation():
         }), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=8080)
