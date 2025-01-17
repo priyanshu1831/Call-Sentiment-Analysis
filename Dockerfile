@@ -1,4 +1,3 @@
-# Dockerfile
 FROM python:3.9-slim
 
 WORKDIR /app
@@ -9,23 +8,27 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements files
-COPY backend/requirements.txt backend-requirements.txt
-COPY frontend/requirements.txt frontend-requirements.txt
+COPY requirements.txt .
 
 # Install dependencies
-RUN pip install --no-cache-dir -r backend-requirements.txt \
-    && pip install --no-cache-dir -r frontend-requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the application
 COPY . .
 
+# Make directory for data
+RUN mkdir -p data
+
 # Create start script
-RUN echo '#!/bin/bash\npython backend/app.py & streamlit run frontend/app.py' > start.sh
+RUN echo '#!/bin/bash\n\
+python backend/app.py & \n\
+streamlit run frontend/app.py --server.port $PORT --browser.serverAddress 0.0.0.0\n\
+wait' > start.sh
+
 RUN chmod +x start.sh
 
-# Expose ports
-EXPOSE 8501
-EXPOSE 5000
+# Expose port
+ENV PORT=8501
 
-# Start both services
+# Start the application
 CMD ["./start.sh"]
