@@ -1,0 +1,2906 @@
+{
+  "meta": {
+    "process_time": 13.67,
+    "utterance_count": 130
+  },
+  "overall_mood": {
+    "confidence": 0.47,
+    "score": -0.07
+  },
+  "speaker_analysis": {
+    "Customer": {
+      "avg_mood": -0.04,
+      "emotions": [
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "joy",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "surprise",
+        "joy",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "disgust",
+        "neutral",
+        "neutral",
+        "anger",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral"
+      ],
+      "messages": [
+        {
+          "confidence": 0.52,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.41,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.43,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Sophia Bol Rahi Hoon"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.55,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Good morning"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.25,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.28,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.84,
+          "emotion": "neutral",
+          "key_phrases": [
+            "one minute"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.62,
+          "emotion": "neutral",
+          "key_phrases": [
+            "nivo madhya Nadu kirva vyaktiyon neematariya nuhoy nallimir siddari dive",
+            "nai nalli giri AAP jis",
+            "unhone aapke call"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.3,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.47,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.29,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.54,
+          "emotion": "neutral",
+          "key_phrases": [
+            "even we"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.49,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.5,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Mein hai directly university se juden hai"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.54,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Sir Ji Ji tenure kitna"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.48,
+          "emotion": "neutral",
+          "key_phrases": [
+            "2024 31st"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.3,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.43,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.65,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.35,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Sir AAP Ek baar",
+            "mujhe brief kar denge"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.66,
+          "emotion": "neutral",
+          "key_phrases": [
+            "BLW Okay"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.35,
+          "emotion": "neutral",
+          "key_phrases": [
+            "yeah so corporate company Mein unlock calm karte hai KTITBMW ke liye kaam karte",
+            "so electronic or automobile background hai"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.33,
+          "emotion": "joy",
+          "key_phrases": [
+            "kya hota hai manager Ki position ke",
+            "this early degree area"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.53,
+          "emotion": "neutral",
+          "key_phrases": [
+            "degree karna",
+            "possible nahi hai"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.3,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.8,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.31,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Vajah se course"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.86,
+          "emotion": "neutral",
+          "key_phrases": [
+            "peeche matlab backup nahi hai mere father Mein",
+            "hi akele uthao Ki"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.28,
+          "emotion": "neutral",
+          "key_phrases": [
+            "3rd option",
+            "Mere liye"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.32,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.3,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.45,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [
+            "M tech",
+            "my Mcafeex",
+            "Chennai SRM"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.27,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.28,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Ji Sir Bilkul Sir"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.39,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Sir vohi classes"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.28,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Kya boliye"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.52,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.25,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Hain final exam kya processor hai"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.78,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.88,
+          "emotion": "surprise",
+          "key_phrases": [
+            "okay Sir last question",
+            "Did basically mujhe thodi",
+            "Patna hai"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.3,
+          "emotion": "joy",
+          "key_phrases": [
+            "hai kya Bangalore Mein Mumbai Mein hai na"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.46,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Hum log donon Bangalore Mein hai job kar"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.48,
+          "emotion": "neutral",
+          "key_phrases": [
+            "No problem",
+            "No question"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.58,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.85,
+          "emotion": "disgust",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.29,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Jo hai test link",
+            "milega matlab",
+            "Sir ye Google meet vala Jo process"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.86,
+          "emotion": "neutral",
+          "key_phrases": [
+            "screen app share karke",
+            "dena hai aisa kyunki kabhi kabhi",
+            "Koi koi"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.39,
+          "emotion": "anger",
+          "key_phrases": [
+            "kuchh der ke baad nahi",
+            "Ho sakta kya kyonki abhi meeting"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.51,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Ek ghante ke baad ho sakta hai kya AAP Agar",
+            "gyarah Tak bheje"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [
+            "20 minutes",
+            "chalega kya bees",
+            "ke liye bas vahan jile Mein karte hai meeting"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.41,
+          "emotion": "neutral",
+          "key_phrases": [
+            "20 minutes"
+          ],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.66,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        }
+      ],
+      "top_emotions": [
+        [
+          "neutral",
+          50
+        ],
+        [
+          "joy",
+          2
+        ]
+      ],
+      "avg_sentiment": 0.0
+    },
+    "Sales Agent": {
+      "avg_mood": -0.09,
+      "emotions": [
+        "neutral",
+        "neutral",
+        "joy",
+        "joy",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "sadness",
+        "neutral",
+        "joy",
+        "neutral",
+        "neutral",
+        "joy",
+        "neutral",
+        "neutral",
+        "sadness",
+        "surprise",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "surprise",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "surprise",
+        "neutral",
+        "joy",
+        "joy",
+        "neutral",
+        "neutral",
+        "joy",
+        "neutral",
+        "joy",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "joy",
+        "joy",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "joy",
+        "neutral",
+        "sadness",
+        "joy"
+      ],
+      "messages": [
+        {
+          "confidence": 0.52,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.46,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.28,
+          "emotion": "joy",
+          "key_phrases": [
+            "Good morning Dhanesh",
+            "Baat kar raha Hoon aapka aaj se"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.37,
+          "emotion": "joy",
+          "key_phrases": [
+            "Thodiya Ek second Main Akanksha Koi line pay le Leta Hun Kyonki Ek"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.56,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.52,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.53,
+          "emotion": "neutral",
+          "key_phrases": [
+            "pay mera se shayad kuchh issue aata"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.52,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.76,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.85,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.46,
+          "emotion": "sadness",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.8,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.36,
+          "emotion": "joy",
+          "key_phrases": [
+            "Sir sabse",
+            "right aapka",
+            "general B1"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.37,
+          "emotion": "neutral",
+          "key_phrases": [
+            "ye Jo MBA programme hai",
+            "online ko sakta hai",
+            "proper offline equivalent degree"
+          ],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.31,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Ji to usi tarah se aapko op general se Ek official email ID bhi",
+            "milega banega aapka",
+            "Jo se aapka"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.35,
+          "emotion": "joy",
+          "key_phrases": [
+            "campus Mein",
+            "convocation type celebration",
+            "right Ceremony"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.28,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.43,
+          "emotion": "neutral",
+          "key_phrases": [
+            "your universities",
+            "isme abracad role kitna",
+            "hai Ki"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.52,
+          "emotion": "sadness",
+          "key_phrases": [
+            "Sara Jo",
+            "hai koi issues",
+            "Jo hai woh institute"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.31,
+          "emotion": "surprise",
+          "key_phrases": [
+            "upright degree nahi milti hai kuchh nahi aapko proper institute",
+            "proper MBA Masters",
+            "milati hai"
+          ],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.25,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.4,
+          "emotion": "neutral",
+          "key_phrases": [
+            "One year ka programme",
+            "one year ka course"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.46,
+          "emotion": "neutral",
+          "key_phrases": [
+            "MATLAB 31st",
+            "Shuru ho raha hai Program Aapko 31st",
+            "khatm ho jayega"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.3,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.35,
+          "emotion": "neutral",
+          "key_phrases": [
+            "So any more questions"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.46,
+          "emotion": "neutral",
+          "key_phrases": [
+            "No worries"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.79,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [
+            "so AAP ko process ke baare Mein bhi jankari hai",
+            "Idea hai jis tarah se process"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.32,
+          "emotion": "neutral",
+          "key_phrases": [
+            "karte hoga taki",
+            "karenge hum website"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.33,
+          "emotion": "neutral",
+          "key_phrases": [
+            "ke baad aapka Ek test hoga toh",
+            "IDF nahi diya"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.23,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.27,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.28,
+          "emotion": "surprise",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.36,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Definitely Ake upper responsibilities",
+            "Vagairah hogi toh AAP job",
+            "Kuchh koi"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.51,
+          "emotion": "neutral",
+          "key_phrases": [
+            "main inake process",
+            "Ki main baat karu",
+            "pehle jaise aapko pahale application"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.75,
+          "emotion": "neutral",
+          "key_phrases": [
+            "ISI baat",
+            "bataaen Tees"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.27,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Ko Ji",
+            "1.5 lakh"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.59,
+          "emotion": "neutral",
+          "key_phrases": [
+            "your seat",
+            "your seat",
+            "your remaining amount"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.46,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Second option Agar aapke paas main credit card",
+            "Ye limit",
+            "kar sakte hai"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.25,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Mera kharcha"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.57,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.25,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Current CTC Kitna Hai Aapka Jaan Sakta Hoon"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.25,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.46,
+          "emotion": "surprise",
+          "key_phrases": [
+            "Okay, Okay and aapke percentage Mein"
+          ],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.36,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Percent gramin"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.75,
+          "emotion": "joy",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.74,
+          "emotion": "joy",
+          "key_phrases": [
+            "Or Akhilesh Aapko kitane percentage pay graduation Mein"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.32,
+          "emotion": "neutral",
+          "key_phrases": [
+            "particular program"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.76,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.47,
+          "emotion": "joy",
+          "key_phrases": [
+            "Honi hai woh Saturday and Sunday ko hi fessions honge"
+          ],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Saturday, Wednesday weekend"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.75,
+          "emotion": "joy",
+          "key_phrases": [
+            "live session bhi attendance",
+            "mandatory honge Agar AAP",
+            "kar sakte Hain"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.81,
+          "emotion": "neutral",
+          "key_phrases": [
+            "total attempt honge jaise Ki",
+            "mahine ka hoga",
+            "June July hoga"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [
+            "second type",
+            "ya Procedure exams"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.62,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.27,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.3,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Nahi nahi branches",
+            "Ye sonipat",
+            "Woh sonipat hariyana"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.45,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.52,
+          "emotion": "joy",
+          "key_phrases": [
+            "Rahe hai",
+            "Bangalore Bangalore",
+            "pe Agar"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "joy",
+          "key_phrases": [
+            "Ji matlab kya",
+            "hota hai possible nahi hota hai",
+            "kahin se"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.35,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Milne jaayegi",
+            "se kiya Agar aapko",
+            "karna hai campus"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.53,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.46,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.66,
+          "emotion": "neutral",
+          "key_phrases": [
+            "your process",
+            "Sofia's process"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.74,
+          "emotion": "neutral",
+          "key_phrases": [
+            "inko Mein Google Mein",
+            "kar raha Hoon AAP bhi",
+            "Google Mein se AAP AAP bhi"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.8,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.32,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Haan Jee"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.51,
+          "emotion": "neutral",
+          "key_phrases": [
+            "your desktop",
+            "your screen",
+            "main aapko guide karunga poora application pages"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.32,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Hai aapko kuchh nahi hoga"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.79,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.76,
+          "emotion": "joy",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.31,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Kabhi yahi ho payega aapka process"
+          ],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.45,
+          "emotion": "sadness",
+          "key_phrases": [
+            "sadhe gyarah baje Tak theek hai koi problem nahi",
+            "Ki hamane time slot book kiya Hua tha institute ke saath Mein",
+            "10:50 ka Kal"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.53,
+          "emotion": "joy",
+          "key_phrases": [
+            "No worries",
+            "Hoon AAP",
+            "20 minutes"
+          ],
+          "score": 1.0
+        }
+      ],
+      "top_emotions": [
+        [
+          "neutral",
+          57
+        ],
+        [
+          "joy",
+          12
+        ]
+      ],
+      "avg_sentiment": 0.0
+    }
+  },
+  "timeline": [
+    {
+      "topics": {},
+      "when": "[00:01]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.52,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[00:02]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.52,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[00:03]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.41,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[00:04]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.46,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[00:06]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.43,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Sophia Bol Rahi Hoon"
+        ],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {
+        "satisfaction": 1.0
+      },
+      "when": "[00:08]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.28,
+        "emotion": "joy",
+        "key_phrases": [
+          "Good morning Dhanesh",
+          "Baat kar raha Hoon aapka aaj se"
+        ],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {
+        "satisfaction": 1.0
+      },
+      "when": "[00:11]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.55,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Good morning"
+        ],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {
+        "satisfaction": 1.0
+      },
+      "when": "[00:13]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.37,
+        "emotion": "joy",
+        "key_phrases": [
+          "Thodiya Ek second Main Akanksha Koi line pay le Leta Hun Kyonki Ek"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[00:45]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.56,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[00:48]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.52,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[00:49]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.25,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {
+        "technical": 1.0
+      },
+      "when": "[00:51]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.53,
+        "emotion": "neutral",
+        "key_phrases": [
+          "pay mera se shayad kuchh issue aata"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[00:59]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.28,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[00:59]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.84,
+        "emotion": "neutral",
+        "key_phrases": [
+          "one minute"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[01:12]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.62,
+        "emotion": "neutral",
+        "key_phrases": [
+          "nivo madhya Nadu kirva vyaktiyon neematariya nuhoy nallimir siddari dive",
+          "nai nalli giri AAP jis",
+          "unhone aapke call"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[01:38]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.3,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[01:44]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.52,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[01:45]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.47,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[01:46]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.76,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[01:54]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.85,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[02:00]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.29,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -0.5
+      }
+    },
+    {
+      "topics": {},
+      "when": "[02:05]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -0.5
+      }
+    },
+    {
+      "topics": {
+        "product": 1.0
+      },
+      "when": "[02:09]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.46,
+        "emotion": "sadness",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[02:11]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.54,
+        "emotion": "neutral",
+        "key_phrases": [
+          "even we"
+        ],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[02:15]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.8,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {
+        "support": 1.0
+      },
+      "when": "[02:16]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.49,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[02:19]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.36,
+        "emotion": "joy",
+        "key_phrases": [
+          "Sir sabse",
+          "right aapka",
+          "general B1"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[02:44]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.37,
+        "emotion": "neutral",
+        "key_phrases": [
+          "ye Jo MBA programme hai",
+          "online ko sakta hai",
+          "proper offline equivalent degree"
+        ],
+        "score": -0.5
+      }
+    },
+    {
+      "topics": {
+        "pricing": 1.0
+      },
+      "when": "[03:14]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.31,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Ji to usi tarah se aapko op general se Ek official email ID bhi",
+          "milega banega aapka",
+          "Jo se aapka"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[03:45]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.35,
+        "emotion": "joy",
+        "key_phrases": [
+          "campus Mein",
+          "convocation type celebration",
+          "right Ceremony"
+        ],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[04:05]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.28,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.5
+      }
+    },
+    {
+      "topics": {},
+      "when": "[04:08]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.5,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Mein hai directly university se juden hai"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[04:12]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.43,
+        "emotion": "neutral",
+        "key_phrases": [
+          "your universities",
+          "isme abracad role kitna",
+          "hai Ki"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {
+        "support": 0.5,
+        "technical": 0.5
+      },
+      "when": "[04:27]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.52,
+        "emotion": "sadness",
+        "key_phrases": [
+          "Sara Jo",
+          "hai koi issues",
+          "Jo hai woh institute"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[04:41]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.31,
+        "emotion": "surprise",
+        "key_phrases": [
+          "upright degree nahi milti hai kuchh nahi aapko proper institute",
+          "proper MBA Masters",
+          "milati hai"
+        ],
+        "score": -0.5
+      }
+    },
+    {
+      "topics": {},
+      "when": "[04:56]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.25,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[04:59]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.54,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Sir Ji Ji tenure kitna"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[05:01]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.4,
+        "emotion": "neutral",
+        "key_phrases": [
+          "One year ka programme",
+          "one year ka course"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[05:05]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.48,
+        "emotion": "neutral",
+        "key_phrases": [
+          "2024 31st"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[05:13]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.46,
+        "emotion": "neutral",
+        "key_phrases": [
+          "MATLAB 31st",
+          "Shuru ho raha hai Program Aapko 31st",
+          "khatm ho jayega"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[05:29]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.3,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[05:29]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.3,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[05:30]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.35,
+        "emotion": "neutral",
+        "key_phrases": [
+          "So any more questions"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[05:41]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.43,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[05:44]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.46,
+        "emotion": "neutral",
+        "key_phrases": [
+          "No worries"
+        ],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[05:44]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.65,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[05:50]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.79,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[05:50]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [
+          "so AAP ko process ke baare Mein bhi jankari hai",
+          "Idea hai jis tarah se process"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[05:53]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.35,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Sir AAP Ek baar",
+          "mujhe brief kar denge"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[05:57]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.32,
+        "emotion": "neutral",
+        "key_phrases": [
+          "karte hoga taki",
+          "karenge hum website"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[06:06]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.33,
+        "emotion": "neutral",
+        "key_phrases": [
+          "ke baad aapka Ek test hoga toh",
+          "IDF nahi diya"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {
+        "product": 1.0
+      },
+      "when": "[06:18]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.66,
+        "emotion": "neutral",
+        "key_phrases": [
+          "BLW Okay"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[06:21]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.23,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[06:22]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.35,
+        "emotion": "neutral",
+        "key_phrases": [
+          "yeah so corporate company Mein unlock calm karte hai KTITBMW ke liye kaam karte",
+          "so electronic or automobile background hai"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[06:32]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.33,
+        "emotion": "joy",
+        "key_phrases": [
+          "kya hota hai manager Ki position ke",
+          "this early degree area"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[06:42]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.27,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {
+        "support": 1.0
+      },
+      "when": "[06:45]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.53,
+        "emotion": "neutral",
+        "key_phrases": [
+          "degree karna",
+          "possible nahi hai"
+        ],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[06:53]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.28,
+        "emotion": "surprise",
+        "key_phrases": [],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[06:53]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.5
+      }
+    },
+    {
+      "topics": {},
+      "when": "[06:55]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.36,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Definitely Ake upper responsibilities",
+          "Vagairah hogi toh AAP job",
+          "Kuchh koi"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[07:12]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.3,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[07:13]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.51,
+        "emotion": "neutral",
+        "key_phrases": [
+          "main inake process",
+          "Ki main baat karu",
+          "pehle jaise aapko pahale application"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[07:39]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.8,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {
+        "pricing": 1.0
+      },
+      "when": "[07:40]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.75,
+        "emotion": "neutral",
+        "key_phrases": [
+          "ISI baat",
+          "bataaen Tees"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[07:46]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.31,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Vajah se course"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[07:47]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.27,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Ko Ji",
+          "1.5 lakh"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[07:53]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.59,
+        "emotion": "neutral",
+        "key_phrases": [
+          "your seat",
+          "your seat",
+          "your remaining amount"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {
+        "pricing": 1.0
+      },
+      "when": "[08:08]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.46,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Second option Agar aapke paas main credit card",
+          "Ye limit",
+          "kar sakte hai"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[08:27]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.86,
+        "emotion": "neutral",
+        "key_phrases": [
+          "peeche matlab backup nahi hai mere father Mein",
+          "hi akele uthao Ki"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[08:36]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.25,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Mera kharcha"
+        ],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[08:37]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.57,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[08:39]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.28,
+        "emotion": "neutral",
+        "key_phrases": [
+          "3rd option",
+          "Mere liye"
+        ],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[08:41]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.25,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Current CTC Kitna Hai Aapka Jaan Sakta Hoon"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[08:43]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.32,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[08:47]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.25,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[08:50]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.3,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[08:51]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.46,
+        "emotion": "surprise",
+        "key_phrases": [
+          "Okay, Okay and aapke percentage Mein"
+        ],
+        "score": 0.5
+      }
+    },
+    {
+      "topics": {},
+      "when": "[08:56]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.45,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[08:59]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.36,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Percent gramin"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {
+        "pricing": 1.0
+      },
+      "when": "[09:02]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [
+          "M tech",
+          "my Mcafeex",
+          "Chennai SRM"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {
+        "satisfaction": 1.0
+      },
+      "when": "[09:08]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.75,
+        "emotion": "joy",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {
+        "satisfaction": 1.0
+      },
+      "when": "[09:09]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.74,
+        "emotion": "joy",
+        "key_phrases": [
+          "Or Akhilesh Aapko kitane percentage pay graduation Mein"
+        ],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[09:15]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.27,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[09:17]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.32,
+        "emotion": "neutral",
+        "key_phrases": [
+          "particular program"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[09:27]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.28,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Ji Sir Bilkul Sir"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[09:28]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.76,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[09:33]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.39,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Sir vohi classes"
+        ],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[09:39]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.47,
+        "emotion": "joy",
+        "key_phrases": [
+          "Honi hai woh Saturday and Sunday ko hi fessions honge"
+        ],
+        "score": 0.5
+      }
+    },
+    {
+      "topics": {},
+      "when": "[09:43]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.28,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Kya boliye"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[09:44]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Saturday, Wednesday weekend"
+        ],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[09:46]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.52,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {
+        "satisfaction": 1.0
+      },
+      "when": "[09:46]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.75,
+        "emotion": "joy",
+        "key_phrases": [
+          "live session bhi attendance",
+          "mandatory honge Agar AAP",
+          "kar sakte Hain"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[10:00]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.25,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Hain final exam kya processor hai"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[10:05]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.81,
+        "emotion": "neutral",
+        "key_phrases": [
+          "total attempt honge jaise Ki",
+          "mahine ka hoga",
+          "June July hoga"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[10:31]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [
+          "second type",
+          "ya Procedure exams"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {
+        "technical": 1.0
+      },
+      "when": "[10:36]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.62,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[10:46]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.78,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[10:48]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.88,
+        "emotion": "surprise",
+        "key_phrases": [
+          "okay Sir last question",
+          "Did basically mujhe thodi",
+          "Patna hai"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[10:56]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.27,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[10:58]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.3,
+        "emotion": "joy",
+        "key_phrases": [
+          "hai kya Bangalore Mein Mumbai Mein hai na"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[11:04]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.3,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Nahi nahi branches",
+          "Ye sonipat",
+          "Woh sonipat hariyana"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[11:12]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.45,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[11:14]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.46,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Hum log donon Bangalore Mein hai job kar"
+        ],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[11:16]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.52,
+        "emotion": "joy",
+        "key_phrases": [
+          "Rahe hai",
+          "Bangalore Bangalore",
+          "pe Agar"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[11:29]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.34,
+        "emotion": "joy",
+        "key_phrases": [
+          "Ji matlab kya",
+          "hota hai possible nahi hota hai",
+          "kahin se"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[11:55]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.35,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Milne jaayegi",
+          "se kiya Agar aapko",
+          "karna hai campus"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[12:10]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.53,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {
+        "technical": 1.0
+      },
+      "when": "[12:14]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.48,
+        "emotion": "neutral",
+        "key_phrases": [
+          "No problem",
+          "No question"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {
+        "satisfaction": 1.0
+      },
+      "when": "[12:17]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.46,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[12:22]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.58,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {
+        "satisfaction": 1.0
+      },
+      "when": "[12:23]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.66,
+        "emotion": "neutral",
+        "key_phrases": [
+          "your process",
+          "Sofia's process"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[12:32]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.5
+      }
+    },
+    {
+      "topics": {
+        "satisfaction": 1.0
+      },
+      "when": "[12:34]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.74,
+        "emotion": "neutral",
+        "key_phrases": [
+          "inko Mein Google Mein",
+          "kar raha Hoon AAP bhi",
+          "Google Mein se AAP AAP bhi"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[12:54]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.85,
+        "emotion": "disgust",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[12:55]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.8,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[12:58]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.32,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Haan Jee"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[13:00]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.29,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Jo hai test link",
+          "milega matlab",
+          "Sir ye Google meet vala Jo process"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {
+        "support": 1.0
+      },
+      "when": "[13:09]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.51,
+        "emotion": "neutral",
+        "key_phrases": [
+          "your desktop",
+          "your screen",
+          "main aapko guide karunga poora application pages"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[13:32]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.86,
+        "emotion": "neutral",
+        "key_phrases": [
+          "screen app share karke",
+          "dena hai aisa kyunki kabhi kabhi",
+          "Koi koi"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {
+        "technical": 1.0
+      },
+      "when": "[13:46]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.32,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Hai aapko kuchh nahi hoga"
+        ],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[13:53]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.79,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[13:57]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.76,
+        "emotion": "joy",
+        "key_phrases": [],
+        "score": 0.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[14:00]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.39,
+        "emotion": "anger",
+        "key_phrases": [
+          "kuchh der ke baad nahi",
+          "Ho sakta kya kyonki abhi meeting"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[14:06]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.31,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Kabhi yahi ho payega aapka process"
+        ],
+        "score": -0.5
+      }
+    },
+    {
+      "topics": {},
+      "when": "[14:10]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.51,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Ek ghante ke baad ho sakta hai kya AAP Agar",
+          "gyarah Tak bheje"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {
+        "technical": 1.0
+      },
+      "when": "[14:15]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.45,
+        "emotion": "sadness",
+        "key_phrases": [
+          "sadhe gyarah baje Tak theek hai koi problem nahi",
+          "Ki hamane time slot book kiya Hua tha institute ke saath Mein",
+          "10:50 ka Kal"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[14:28]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [
+          "20 minutes",
+          "chalega kya bees",
+          "ke liye bas vahan jile Mein karte hai meeting"
+        ],
+        "score": -1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[14:39]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.41,
+        "emotion": "neutral",
+        "key_phrases": [
+          "20 minutes"
+        ],
+        "score": -0.5
+      }
+    },
+    {
+      "topics": {},
+      "when": "[14:41]",
+      "who": "Sales Agent",
+      "sentiment": {
+        "confidence": 0.53,
+        "emotion": "joy",
+        "key_phrases": [
+          "No worries",
+          "Hoon AAP",
+          "20 minutes"
+        ],
+        "score": 1.0
+      }
+    },
+    {
+      "topics": {},
+      "when": "[14:50]",
+      "who": "Customer",
+      "sentiment": {
+        "confidence": 0.66,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      }
+    }
+  ],
+  "topics": {
+    "pricing": 0.17,
+    "product": 0.08,
+    "satisfaction": 0.38,
+    "support": 0.15,
+    "technical": 0.23
+  },
+  "overall_sentiment": {
+    "score": -0.07,
+    "confidence": 1.0
+  }
+}

@@ -1,0 +1,4205 @@
+{
+  "meta": {
+    "process_time": 14.6,
+    "utterance_count": 197
+  },
+  "overall_mood": {
+    "confidence": 0.43,
+    "score": 0.04
+  },
+  "speaker_analysis": {
+    "Customer": {
+      "avg_mood": 0.04,
+      "emotions": [
+        "joy",
+        "neutral",
+        "fear",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "sadness",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "joy",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "surprise",
+        "neutral",
+        "neutral",
+        "surprise",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "surprise",
+        "neutral",
+        "neutral",
+        "surprise",
+        "surprise",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "joy"
+      ],
+      "messages": [
+        {
+          "confidence": 0.52,
+          "emotion": "joy",
+          "key_phrases": [
+            "Good morning"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.46,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.25,
+          "emotion": "fear",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.46,
+          "emotion": "neutral",
+          "key_phrases": [
+            "this advisory"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.36,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.4,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.27,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.52,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.38,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.42,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.47,
+          "emotion": "neutral",
+          "key_phrases": [
+            "my current course",
+            "first week"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.67,
+          "emotion": "neutral",
+          "key_phrases": [
+            "So Data Science",
+            "Data Science",
+            "Data Science"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.66,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.38,
+          "emotion": "neutral",
+          "key_phrases": [
+            "your data science course"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.49,
+          "emotion": "neutral",
+          "key_phrases": [
+            "your tie"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.33,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.59,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.31,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.29,
+          "emotion": "sadness",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.88,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.38,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Feedback team"
+          ],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.29,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.35,
+          "emotion": "neutral",
+          "key_phrases": [
+            "my past interaction"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.35,
+          "emotion": "neutral",
+          "key_phrases": [
+            "every courses",
+            "that one"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.29,
+          "emotion": "neutral",
+          "key_phrases": [
+            "my profile"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.65,
+          "emotion": "neutral",
+          "key_phrases": [
+            "3 months kind of the thing"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.37,
+          "emotion": "neutral",
+          "key_phrases": [
+            "just 23 months classes",
+            "So its required lot"
+          ],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.74,
+          "emotion": "neutral",
+          "key_phrases": [
+            "that direction"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.38,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.78,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.53,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.37,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.88,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.28,
+          "emotion": "neutral",
+          "key_phrases": [
+            "my mind",
+            "not nobody",
+            "non tech"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.37,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Only only thing"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.73,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Okay, finance background"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.47,
+          "emotion": "neutral",
+          "key_phrases": [
+            "banking infinites",
+            "Working domain"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.54,
+          "emotion": "neutral",
+          "key_phrases": [
+            "banking and finance domain"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.47,
+          "emotion": "neutral",
+          "key_phrases": [
+            "S dot"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.27,
+          "emotion": "neutral",
+          "key_phrases": [
+            "voice answer"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.33,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.24,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.59,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.3,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.41,
+          "emotion": "joy",
+          "key_phrases": [
+            "good barfi"
+          ],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.45,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.51,
+          "emotion": "neutral",
+          "key_phrases": [
+            "rubbery ways"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.33,
+          "emotion": "neutral",
+          "key_phrases": [
+            "that requirement",
+            "that 1I"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.25,
+          "emotion": "neutral",
+          "key_phrases": [
+            "your offer"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.56,
+          "emotion": "neutral",
+          "key_phrases": [
+            "banking SNS"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.4,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Mr Farhan sector"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.27,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.6,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.44,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.31,
+          "emotion": "neutral",
+          "key_phrases": [
+            "this Liverpool University"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.37,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.8,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.32,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.6,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.26,
+          "emotion": "surprise",
+          "key_phrases": [
+            "how the the",
+            "this quote"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.43,
+          "emotion": "neutral",
+          "key_phrases": [
+            "5.5 lakh"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.83,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.44,
+          "emotion": "surprise",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.44,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.25,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.31,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Mathura IT Bangalore"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.3,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.7,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.26,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.42,
+          "emotion": "surprise",
+          "key_phrases": [
+            "not even a diploma",
+            "only certificate"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.66,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.36,
+          "emotion": "neutral",
+          "key_phrases": [
+            "triple IT"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.27,
+          "emotion": "surprise",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.27,
+          "emotion": "surprise",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.46,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.38,
+          "emotion": "neutral",
+          "key_phrases": [
+            "no problem",
+            "25 minutes",
+            "30 minutes"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.29,
+          "emotion": "neutral",
+          "key_phrases": [
+            "My email ID"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.52,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.64,
+          "emotion": "joy",
+          "key_phrases": [
+            "Okay, Fine"
+          ],
+          "score": 0.0
+        }
+      ],
+      "top_emotions": [
+        [
+          "neutral",
+          71
+        ],
+        [
+          "surprise",
+          5
+        ]
+      ]
+    },
+    "Sales Agent": {
+      "avg_mood": 0.05,
+      "emotions": [
+        "neutral",
+        "joy",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "surprise",
+        "joy",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "surprise",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "surprise",
+        "neutral",
+        "neutral",
+        "neutral",
+        "disgust",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "surprise",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "joy"
+      ],
+      "messages": [
+        {
+          "confidence": 0.28,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.6,
+          "emotion": "joy",
+          "key_phrases": [
+            "very good morning"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.3,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.31,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.39,
+          "emotion": "neutral",
+          "key_phrases": [
+            "some courses",
+            "our program manager",
+            "your doubt"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.36,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Human banks"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.37,
+          "emotion": "neutral",
+          "key_phrases": [
+            "some data",
+            "that thing"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.35,
+          "emotion": "neutral",
+          "key_phrases": [
+            "your query"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.44,
+          "emotion": "neutral",
+          "key_phrases": [
+            "some syllabus"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.8,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.85,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [
+            "which speed"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.28,
+          "emotion": "surprise",
+          "key_phrases": [
+            "that sector"
+          ],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.39,
+          "emotion": "joy",
+          "key_phrases": [],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.38,
+          "emotion": "neutral",
+          "key_phrases": [
+            "everyone's light",
+            "your Courier roadmap",
+            "particular things"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.49,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.56,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Triple IT"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.27,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.36,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.31,
+          "emotion": "neutral",
+          "key_phrases": [
+            "data analytics",
+            "that particular field",
+            "Triple IDV something"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.47,
+          "emotion": "neutral",
+          "key_phrases": [
+            "data science"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.33,
+          "emotion": "neutral",
+          "key_phrases": [
+            "data engineer",
+            "business analyst",
+            "data analytics"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.31,
+          "emotion": "neutral",
+          "key_phrases": [
+            "your pharmaceutical",
+            "deep dive",
+            "some masters"
+          ],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.39,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.44,
+          "emotion": "neutral",
+          "key_phrases": [
+            "what exactly the decision"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.39,
+          "emotion": "neutral",
+          "key_phrases": [
+            "both things"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.43,
+          "emotion": "neutral",
+          "key_phrases": [
+            "your profile",
+            "what kind"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.43,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.47,
+          "emotion": "neutral",
+          "key_phrases": [
+            "that thing",
+            "your profile"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.36,
+          "emotion": "neutral",
+          "key_phrases": [
+            "your expertise"
+          ],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.33,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.45,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.66,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.32,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.39,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.42,
+          "emotion": "neutral",
+          "key_phrases": [
+            "More than 10 years"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.26,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.48,
+          "emotion": "surprise",
+          "key_phrases": [
+            "random thing"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.83,
+          "emotion": "neutral",
+          "key_phrases": [
+            "your expertise",
+            "that same type"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.33,
+          "emotion": "neutral",
+          "key_phrases": [
+            "my program manager",
+            "So I",
+            "just what"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.45,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.42,
+          "emotion": "neutral",
+          "key_phrases": [
+            "non tech",
+            "non tech"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.86,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.26,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.3,
+          "emotion": "neutral",
+          "key_phrases": [
+            "only that kind",
+            "that conversation"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.32,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.35,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.42,
+          "emotion": "surprise",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.49,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.46,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.28,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.26,
+          "emotion": "disgust",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.38,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.48,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.65,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.7,
+          "emotion": "neutral",
+          "key_phrases": [
+            "that experience"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.88,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.32,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.25,
+          "emotion": "neutral",
+          "key_phrases": [
+            "infant market",
+            "Infinite market"
+          ],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.77,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Triple IT Bangalore",
+            "Triple IT Bangalore",
+            "Which film"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.35,
+          "emotion": "neutral",
+          "key_phrases": [
+            "triple IT Bangalore",
+            "12 months",
+            "12 month"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.38,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.42,
+          "emotion": "neutral",
+          "key_phrases": [
+            "other things",
+            "exponential growth",
+            "particular field"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.35,
+          "emotion": "neutral",
+          "key_phrases": [
+            "that triple IT Bangalore program",
+            "one year",
+            "your profile"
+          ],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.48,
+          "emotion": "neutral",
+          "key_phrases": [
+            "your journey"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.46,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.31,
+          "emotion": "neutral",
+          "key_phrases": [
+            "IT background"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.84,
+          "emotion": "neutral",
+          "key_phrases": [
+            "that particular things"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.42,
+          "emotion": "neutral",
+          "key_phrases": [
+            "18 month journey",
+            "your need",
+            "Ki time"
+          ],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [
+            "last 6 months",
+            "2 or 2 things",
+            "our TC supervisor"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.47,
+          "emotion": "neutral",
+          "key_phrases": [
+            "that program"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.4,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.42,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.33,
+          "emotion": "neutral",
+          "key_phrases": [
+            "this kind"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.39,
+          "emotion": "neutral",
+          "key_phrases": [
+            "PGP program",
+            "Just simply flight",
+            "not a proper one"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.48,
+          "emotion": "neutral",
+          "key_phrases": [
+            "one better thing",
+            "your things"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.43,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Basically its a live booth",
+            "online sessions"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.36,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.38,
+          "emotion": "neutral",
+          "key_phrases": [
+            "daily learning",
+            "daily basis"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.28,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.33,
+          "emotion": "neutral",
+          "key_phrases": [
+            "TV Manager"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.84,
+          "emotion": "neutral",
+          "key_phrases": [
+            "this main main thing",
+            "12 years",
+            "our industrial project"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.3,
+          "emotion": "neutral",
+          "key_phrases": [
+            "that process",
+            "real time analysis",
+            "management basis thing"
+          ],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.32,
+          "emotion": "neutral",
+          "key_phrases": [
+            "one to one personal session",
+            "20 years",
+            "22 years"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.36,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.46,
+          "emotion": "neutral",
+          "key_phrases": [
+            "carrier assessment",
+            "34 months"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.27,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.38,
+          "emotion": "neutral",
+          "key_phrases": [
+            "my job",
+            "my job",
+            "finance sector"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.41,
+          "emotion": "neutral",
+          "key_phrases": [
+            "one interview"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.33,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.42,
+          "emotion": "neutral",
+          "key_phrases": [
+            "18 months"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.52,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Yeah, 5.5 lakhs"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.35,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.51,
+          "emotion": "surprise",
+          "key_phrases": [
+            "triple ID Bangalore",
+            "its a UP university"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.33,
+          "emotion": "neutral",
+          "key_phrases": [
+            "IT Bangalore"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.29,
+          "emotion": "neutral",
+          "key_phrases": [
+            "only you",
+            "that particular university"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.47,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.43,
+          "emotion": "neutral",
+          "key_phrases": [
+            "interconnected correct",
+            "other things",
+            "you guys"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.56,
+          "emotion": "neutral",
+          "key_phrases": [
+            "triple IT"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [
+            "IT sub ID",
+            "Its not a proper degree certificate"
+          ],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.32,
+          "emotion": "neutral",
+          "key_phrases": [
+            "If its a certificate"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.26,
+          "emotion": "neutral",
+          "key_phrases": [
+            "proper authorization",
+            "other things"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.28,
+          "emotion": "neutral",
+          "key_phrases": [
+            "he and You Liverpool John Mohsin University"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.25,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.3,
+          "emotion": "neutral",
+          "key_phrases": [
+            "even the other things",
+            "one thing"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.42,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.38,
+          "emotion": "neutral",
+          "key_phrases": [
+            "other statements"
+          ],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.26,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.26,
+          "emotion": "neutral",
+          "key_phrases": [
+            "what time",
+            "3 years"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.56,
+          "emotion": "neutral",
+          "key_phrases": [
+            "other things"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.38,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.33,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.41,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.76,
+          "emotion": "neutral",
+          "key_phrases": [
+            "5 minutes"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.51,
+          "emotion": "joy",
+          "key_phrases": [],
+          "score": 1.0
+        }
+      ],
+      "top_emotions": [
+        [
+          "neutral",
+          108
+        ],
+        [
+          "surprise",
+          4
+        ]
+      ]
+    }
+  },
+  "timeline": [
+    {
+      "mood": {
+        "confidence": 0.28,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[00:04]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.6,
+        "emotion": "joy",
+        "key_phrases": [
+          "very good morning"
+        ],
+        "score": 1.0
+      },
+      "topics": {
+        "satisfaction": 1.0
+      },
+      "when": "[00:06]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.52,
+        "emotion": "joy",
+        "key_phrases": [
+          "Good morning"
+        ],
+        "score": 1.0
+      },
+      "topics": {
+        "satisfaction": 1.0
+      },
+      "when": "[00:07]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.3,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {
+        "pricing": 1.0
+      },
+      "when": "[00:09]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.46,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[00:12]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.31,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {
+        "pricing": 1.0
+      },
+      "when": "[00:15]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.39,
+        "emotion": "neutral",
+        "key_phrases": [
+          "some courses",
+          "our program manager",
+          "your doubt"
+        ],
+        "score": 0.0
+      },
+      "topics": {
+        "support": 1.0
+      },
+      "when": "[00:24]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.25,
+        "emotion": "fear",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[00:34]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.46,
+        "emotion": "neutral",
+        "key_phrases": [
+          "this advisory"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[00:35]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.36,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Human banks"
+        ],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[00:39]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.36,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -0.5
+      },
+      "topics": {},
+      "when": "[00:42]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.37,
+        "emotion": "neutral",
+        "key_phrases": [
+          "some data",
+          "that thing"
+        ],
+        "score": -1.0
+      },
+      "topics": {
+        "pricing": 1.0
+      },
+      "when": "[00:46]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.4,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.5
+      },
+      "topics": {},
+      "when": "[01:00]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.35,
+        "emotion": "neutral",
+        "key_phrases": [
+          "your query"
+        ],
+        "score": 0.0
+      },
+      "topics": {
+        "support": 1.0
+      },
+      "when": "[01:03]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.27,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[01:14]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.52,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[01:20]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.38,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[01:29]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.44,
+        "emotion": "neutral",
+        "key_phrases": [
+          "some syllabus"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[01:31]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.42,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[01:33]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.8,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[01:35]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.47,
+        "emotion": "neutral",
+        "key_phrases": [
+          "my current course",
+          "first week"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[01:37]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.85,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[01:45]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [
+          "which speed"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[01:48]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.28,
+        "emotion": "surprise",
+        "key_phrases": [
+          "that sector"
+        ],
+        "score": -0.5
+      },
+      "topics": {},
+      "when": "[01:54]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.67,
+        "emotion": "neutral",
+        "key_phrases": [
+          "So Data Science",
+          "Data Science",
+          "Data Science"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[01:56]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.39,
+        "emotion": "joy",
+        "key_phrases": [],
+        "score": 0.5
+      },
+      "topics": {},
+      "when": "[02:00]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.66,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[02:01]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.38,
+        "emotion": "neutral",
+        "key_phrases": [
+          "everyone's light",
+          "your Courier roadmap",
+          "particular things"
+        ],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[02:02]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.38,
+        "emotion": "neutral",
+        "key_phrases": [
+          "your data science course"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[02:13]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.49,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[02:21]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.49,
+        "emotion": "neutral",
+        "key_phrases": [
+          "your tie"
+        ],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[02:21]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.56,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Triple IT"
+        ],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[02:24]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.33,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[02:25]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.27,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[02:28]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.59,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[02:29]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.36,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[02:35]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.31,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[02:36]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.31,
+        "emotion": "neutral",
+        "key_phrases": [
+          "data analytics",
+          "that particular field",
+          "Triple IDV something"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[02:37]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.47,
+        "emotion": "neutral",
+        "key_phrases": [
+          "data science"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[02:56]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.29,
+        "emotion": "sadness",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[03:06]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.33,
+        "emotion": "neutral",
+        "key_phrases": [
+          "data engineer",
+          "business analyst",
+          "data analytics"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[03:07]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.31,
+        "emotion": "neutral",
+        "key_phrases": [
+          "your pharmaceutical",
+          "deep dive",
+          "some masters"
+        ],
+        "score": 0.5
+      },
+      "topics": {},
+      "when": "[03:22]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.88,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[03:51]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.39,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -0.5
+      },
+      "topics": {},
+      "when": "[03:57]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.38,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Feedback team"
+        ],
+        "score": 0.5
+      },
+      "topics": {
+        "pricing": 1.0
+      },
+      "when": "[04:03]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.44,
+        "emotion": "neutral",
+        "key_phrases": [
+          "what exactly the decision"
+        ],
+        "score": 1.0
+      },
+      "topics": {
+        "pricing": 1.0
+      },
+      "when": "[04:04]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.29,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {
+        "pricing": 1.0
+      },
+      "when": "[04:10]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.39,
+        "emotion": "neutral",
+        "key_phrases": [
+          "both things"
+        ],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[04:15]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.43,
+        "emotion": "neutral",
+        "key_phrases": [
+          "your profile",
+          "what kind"
+        ],
+        "score": 0.0
+      },
+      "topics": {
+        "pricing": 0.22,
+        "satisfaction": 0.26,
+        "support": 0.52
+      },
+      "when": "[04:21]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.35,
+        "emotion": "neutral",
+        "key_phrases": [
+          "my past interaction"
+        ],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[04:47]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.35,
+        "emotion": "neutral",
+        "key_phrases": [
+          "every courses",
+          "that one"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[04:55]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.43,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[05:06]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.29,
+        "emotion": "neutral",
+        "key_phrases": [
+          "my profile"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[05:07]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.47,
+        "emotion": "neutral",
+        "key_phrases": [
+          "that thing",
+          "your profile"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[05:15]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.36,
+        "emotion": "neutral",
+        "key_phrases": [
+          "your expertise"
+        ],
+        "score": 0.5
+      },
+      "topics": {},
+      "when": "[05:36]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.33,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[05:52]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.65,
+        "emotion": "neutral",
+        "key_phrases": [
+          "3 months kind of the thing"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[05:54]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.45,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[06:06]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.37,
+        "emotion": "neutral",
+        "key_phrases": [
+          "just 23 months classes",
+          "So its required lot"
+        ],
+        "score": -0.5
+      },
+      "topics": {
+        "product": 1.0
+      },
+      "when": "[06:08]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.66,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[06:20]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.74,
+        "emotion": "neutral",
+        "key_phrases": [
+          "that direction"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[06:21]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.38,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[06:27]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.32,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[06:36]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.39,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[06:36]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.78,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[06:45]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.42,
+        "emotion": "neutral",
+        "key_phrases": [
+          "More than 10 years"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[06:51]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.53,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[07:11]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.26,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -0.5
+      },
+      "topics": {},
+      "when": "[07:12]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.48,
+        "emotion": "surprise",
+        "key_phrases": [
+          "random thing"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[07:20]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.83,
+        "emotion": "neutral",
+        "key_phrases": [
+          "your expertise",
+          "that same type"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[07:23]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.33,
+        "emotion": "neutral",
+        "key_phrases": [
+          "my program manager",
+          "So I",
+          "just what"
+        ],
+        "score": 0.0
+      },
+      "topics": {
+        "product": 1.0
+      },
+      "when": "[07:55]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.37,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[08:08]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.45,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[08:11]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.42,
+        "emotion": "neutral",
+        "key_phrases": [
+          "non tech",
+          "non tech"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[08:11]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.86,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[08:18]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.26,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[08:26]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.3,
+        "emotion": "neutral",
+        "key_phrases": [
+          "only that kind",
+          "that conversation"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[08:32]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.32,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -0.5
+      },
+      "topics": {},
+      "when": "[08:39]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.88,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[08:41]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.28,
+        "emotion": "neutral",
+        "key_phrases": [
+          "my mind",
+          "not nobody",
+          "non tech"
+        ],
+        "score": -1.0
+      },
+      "topics": {
+        "satisfaction": 1.0
+      },
+      "when": "[08:49]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.37,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Only only thing"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[09:03]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.73,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Okay, finance background"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[09:10]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.47,
+        "emotion": "neutral",
+        "key_phrases": [
+          "banking infinites",
+          "Working domain"
+        ],
+        "score": 0.0
+      },
+      "topics": {
+        "product": 1.0
+      },
+      "when": "[09:13]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.54,
+        "emotion": "neutral",
+        "key_phrases": [
+          "banking and finance domain"
+        ],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[09:19]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.35,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[09:24]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.47,
+        "emotion": "neutral",
+        "key_phrases": [
+          "S dot"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[09:24]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.42,
+        "emotion": "surprise",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[09:26]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.27,
+        "emotion": "neutral",
+        "key_phrases": [
+          "voice answer"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[09:26]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.33,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.5
+      },
+      "topics": {},
+      "when": "[09:32]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.49,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[09:36]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.24,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[09:37]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.46,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[09:38]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.59,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[09:39]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.28,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[09:39]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.3,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.5
+      },
+      "topics": {},
+      "when": "[09:40]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.26,
+        "emotion": "disgust",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[09:41]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.41,
+        "emotion": "joy",
+        "key_phrases": [
+          "good barfi"
+        ],
+        "score": 0.5
+      },
+      "topics": {
+        "satisfaction": 1.0
+      },
+      "when": "[09:42]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.38,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[09:45]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.45,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[09:46]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[09:47]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.48,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[09:48]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.51,
+        "emotion": "neutral",
+        "key_phrases": [
+          "rubbery ways"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[09:48]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.65,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[09:56]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.33,
+        "emotion": "neutral",
+        "key_phrases": [
+          "that requirement",
+          "that 1I"
+        ],
+        "score": 0.0
+      },
+      "topics": {
+        "support": 1.0
+      },
+      "when": "[09:58]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.25,
+        "emotion": "neutral",
+        "key_phrases": [
+          "your offer"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[10:18]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.7,
+        "emotion": "neutral",
+        "key_phrases": [
+          "that experience"
+        ],
+        "score": 1.0
+      },
+      "topics": {
+        "product": 0.5,
+        "technical": 0.5
+      },
+      "when": "[10:25]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.56,
+        "emotion": "neutral",
+        "key_phrases": [
+          "banking SNS"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[10:39]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.88,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[10:42]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.4,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Mr Farhan sector"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[10:49]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.32,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.5
+      },
+      "topics": {},
+      "when": "[10:55]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.25,
+        "emotion": "neutral",
+        "key_phrases": [
+          "infant market",
+          "Infinite market"
+        ],
+        "score": -0.5
+      },
+      "topics": {},
+      "when": "[10:55]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.77,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Triple IT Bangalore",
+          "Triple IT Bangalore",
+          "Which film"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[10:58]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.35,
+        "emotion": "neutral",
+        "key_phrases": [
+          "triple IT Bangalore",
+          "12 months",
+          "12 month"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[11:21]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.38,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[11:51]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.42,
+        "emotion": "neutral",
+        "key_phrases": [
+          "other things",
+          "exponential growth",
+          "particular field"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[11:54]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.35,
+        "emotion": "neutral",
+        "key_phrases": [
+          "that triple IT Bangalore program",
+          "one year",
+          "your profile"
+        ],
+        "score": -0.5
+      },
+      "topics": {},
+      "when": "[12:22]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.48,
+        "emotion": "neutral",
+        "key_phrases": [
+          "your journey"
+        ],
+        "score": 1.0
+      },
+      "topics": {
+        "support": 1.0
+      },
+      "when": "[12:38]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.46,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[12:43]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.31,
+        "emotion": "neutral",
+        "key_phrases": [
+          "IT background"
+        ],
+        "score": 0.0
+      },
+      "topics": {
+        "product": 1.0
+      },
+      "when": "[12:50]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.27,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[13:03]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.84,
+        "emotion": "neutral",
+        "key_phrases": [
+          "that particular things"
+        ],
+        "score": 0.0
+      },
+      "topics": {
+        "satisfaction": 1.0
+      },
+      "when": "[13:05]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.42,
+        "emotion": "neutral",
+        "key_phrases": [
+          "18 month journey",
+          "your need",
+          "Ki time"
+        ],
+        "score": 0.5
+      },
+      "topics": {
+        "support": 1.0
+      },
+      "when": "[13:14]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [
+          "last 6 months",
+          "2 or 2 things",
+          "our TC supervisor"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[13:41]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.47,
+        "emotion": "neutral",
+        "key_phrases": [
+          "that program"
+        ],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[14:10]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.6,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[14:14]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.4,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[14:16]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[14:23]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.42,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.5
+      },
+      "topics": {
+        "support": 1.0
+      },
+      "when": "[14:25]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.33,
+        "emotion": "neutral",
+        "key_phrases": [
+          "this kind"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[14:28]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.39,
+        "emotion": "neutral",
+        "key_phrases": [
+          "PGP program",
+          "Just simply flight",
+          "not a proper one"
+        ],
+        "score": 0.0
+      },
+      "topics": {
+        "support": 1.0
+      },
+      "when": "[14:38]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.48,
+        "emotion": "neutral",
+        "key_phrases": [
+          "one better thing",
+          "your things"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[14:57]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.44,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[15:10]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.43,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Basically its a live booth",
+          "online sessions"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[15:13]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.36,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[15:31]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.38,
+        "emotion": "neutral",
+        "key_phrases": [
+          "daily learning",
+          "daily basis"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[15:36]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.31,
+        "emotion": "neutral",
+        "key_phrases": [
+          "this Liverpool University"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[15:56]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.28,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.5
+      },
+      "topics": {},
+      "when": "[16:00]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.37,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[16:03]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.33,
+        "emotion": "neutral",
+        "key_phrases": [
+          "TV Manager"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[16:06]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.8,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[16:32]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.84,
+        "emotion": "neutral",
+        "key_phrases": [
+          "this main main thing",
+          "12 years",
+          "our industrial project"
+        ],
+        "score": 0.0
+      },
+      "topics": {
+        "product": 1.0
+      },
+      "when": "[16:33]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.3,
+        "emotion": "neutral",
+        "key_phrases": [
+          "that process",
+          "real time analysis",
+          "management basis thing"
+        ],
+        "score": -0.5
+      },
+      "topics": {
+        "product": 1.0
+      },
+      "when": "[17:00]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.32,
+        "emotion": "neutral",
+        "key_phrases": [
+          "one to one personal session",
+          "20 years",
+          "22 years"
+        ],
+        "score": 0.0
+      },
+      "topics": {
+        "product": 0.5,
+        "satisfaction": 0.5
+      },
+      "when": "[17:35]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.32,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[18:04]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.36,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {
+        "product": 1.0
+      },
+      "when": "[18:05]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.46,
+        "emotion": "neutral",
+        "key_phrases": [
+          "carrier assessment",
+          "34 months"
+        ],
+        "score": 1.0
+      },
+      "topics": {
+        "product": 0.5,
+        "support": 0.5
+      },
+      "when": "[18:20]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.27,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -0.5
+      },
+      "topics": {
+        "pricing": 0.45,
+        "product": 0.55
+      },
+      "when": "[18:40]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.38,
+        "emotion": "neutral",
+        "key_phrases": [
+          "my job",
+          "my job",
+          "finance sector"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[19:09]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.41,
+        "emotion": "neutral",
+        "key_phrases": [
+          "one interview"
+        ],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[19:31]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.33,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {
+        "pricing": 1.0
+      },
+      "when": "[19:43]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.6,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[19:48]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.26,
+        "emotion": "surprise",
+        "key_phrases": [
+          "how the the",
+          "this quote"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[19:52]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.42,
+        "emotion": "neutral",
+        "key_phrases": [
+          "18 months"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[19:56]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.43,
+        "emotion": "neutral",
+        "key_phrases": [
+          "5.5 lakh"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[20:04]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.52,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Yeah, 5.5 lakhs"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[20:06]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.83,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[20:08]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.44,
+        "emotion": "surprise",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[20:11]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.35,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.5
+      },
+      "topics": {},
+      "when": "[20:12]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.44,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[20:12]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.51,
+        "emotion": "surprise",
+        "key_phrases": [
+          "triple ID Bangalore",
+          "its a UP university"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[20:14]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.25,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[20:30]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.33,
+        "emotion": "neutral",
+        "key_phrases": [
+          "IT Bangalore"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[20:32]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.29,
+        "emotion": "neutral",
+        "key_phrases": [
+          "only you",
+          "that particular university"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[20:57]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.31,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Mathura IT Bangalore"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[21:11]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.47,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[21:17]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.3,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[21:24]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.43,
+        "emotion": "neutral",
+        "key_phrases": [
+          "interconnected correct",
+          "other things",
+          "you guys"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[21:28]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.56,
+        "emotion": "neutral",
+        "key_phrases": [
+          "triple IT"
+        ],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[21:41]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.7,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[21:42]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.26,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.5
+      },
+      "topics": {},
+      "when": "[21:49]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [
+          "IT sub ID",
+          "Its not a proper degree certificate"
+        ],
+        "score": -0.5
+      },
+      "topics": {},
+      "when": "[21:55]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.42,
+        "emotion": "surprise",
+        "key_phrases": [
+          "not even a diploma",
+          "only certificate"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[22:03]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.32,
+        "emotion": "neutral",
+        "key_phrases": [
+          "If its a certificate"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[22:08]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.26,
+        "emotion": "neutral",
+        "key_phrases": [
+          "proper authorization",
+          "other things"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[22:16]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.66,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[22:29]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.28,
+        "emotion": "neutral",
+        "key_phrases": [
+          "he and You Liverpool John Mohsin University"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[22:29]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.36,
+        "emotion": "neutral",
+        "key_phrases": [
+          "triple IT"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[22:36]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.25,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[22:45]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.27,
+        "emotion": "surprise",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[22:48]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.3,
+        "emotion": "neutral",
+        "key_phrases": [
+          "even the other things",
+          "one thing"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[22:50]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.42,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.5
+      },
+      "topics": {},
+      "when": "[23:20]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.38,
+        "emotion": "neutral",
+        "key_phrases": [
+          "other statements"
+        ],
+        "score": 0.5
+      },
+      "topics": {},
+      "when": "[23:25]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.27,
+        "emotion": "surprise",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[23:33]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.46,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[23:35]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.26,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[23:39]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.26,
+        "emotion": "neutral",
+        "key_phrases": [
+          "what time",
+          "3 years"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[23:39]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.38,
+        "emotion": "neutral",
+        "key_phrases": [
+          "no problem",
+          "25 minutes",
+          "30 minutes"
+        ],
+        "score": 1.0
+      },
+      "topics": {
+        "technical": 1.0
+      },
+      "when": "[23:43]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.56,
+        "emotion": "neutral",
+        "key_phrases": [
+          "other things"
+        ],
+        "score": 1.0
+      },
+      "topics": {
+        "technical": 1.0
+      },
+      "when": "[23:50]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[24:00]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.38,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[24:03]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.29,
+        "emotion": "neutral",
+        "key_phrases": [
+          "My email ID"
+        ],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[24:11]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.33,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[24:13]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.41,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "topics": {},
+      "when": "[24:20]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.52,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[24:26]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.76,
+        "emotion": "neutral",
+        "key_phrases": [
+          "5 minutes"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[24:27]",
+      "who": "Sales Agent"
+    },
+    {
+      "mood": {
+        "confidence": 0.64,
+        "emotion": "joy",
+        "key_phrases": [
+          "Okay, Fine"
+        ],
+        "score": 0.0
+      },
+      "topics": {},
+      "when": "[24:31]",
+      "who": "Customer"
+    },
+    {
+      "mood": {
+        "confidence": 0.51,
+        "emotion": "joy",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "topics": {},
+      "when": "[24:34]",
+      "who": "Sales Agent"
+    }
+  ],
+  "topics": {
+    "pricing": 0.23,
+    "product": 0.27,
+    "satisfaction": 0.17,
+    "support": 0.24,
+    "technical": 0.08
+  }
+}

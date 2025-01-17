@@ -1,0 +1,808 @@
+{
+  "meta": {
+    "process_time": 2.87,
+    "utterance_count": 34
+  },
+  "speaker_analysis": {
+    "Customer": {
+      "emotions": [
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "sadness",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "joy"
+      ],
+      "messages": [
+        {
+          "confidence": 0.27,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.52,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [
+            "So basically the person",
+            "my fees",
+            "us KA"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.59,
+          "emotion": "neutral",
+          "key_phrases": [
+            "toh aapne Jo list",
+            "hi bhejna hai right"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.4,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.32,
+          "emotion": "neutral",
+          "key_phrases": [
+            "processing charge"
+          ],
+          "score": 0.5
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "sadness",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.26,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.25,
+          "emotion": "neutral",
+          "key_phrases": [
+            "so I"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.48,
+          "emotion": "neutral",
+          "key_phrases": [
+            "EMI kitna",
+            "kar dunga"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.3,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.3,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.59,
+          "emotion": "joy",
+          "key_phrases": [
+            "Yeah, no issue"
+          ],
+          "score": 0.0
+        }
+      ],
+      "top_emotions": [
+        [
+          "neutral",
+          13
+        ],
+        [
+          "sadness",
+          1
+        ]
+      ],
+      "avg_sentiment": -0.07
+    },
+    "Sales Agent": {
+      "emotions": [
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "sadness",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral"
+      ],
+      "messages": [
+        {
+          "confidence": 0.52,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.59,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.49,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Ki AAP",
+            "pe apne parents",
+            "ya fir matlab Jo bhi aapke behalf"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.46,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Some details",
+            "proper set",
+            "detail aapko"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.26,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Kar dijiye taki Mein aaj",
+            "ye documents",
+            "bhej Doon"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.67,
+          "emotion": "sadness",
+          "key_phrases": [
+            "registration centre",
+            "ke andar andar",
+            "EMI ke liye documents"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.54,
+          "emotion": "neutral",
+          "key_phrases": [
+            "some one point",
+            "some processing charge",
+            "different processing charge"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.37,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Processing charges"
+          ],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.4,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Ki AAP koi bhi jis market Mein lete ho right",
+            "10% interest",
+            "15% interest"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.36,
+          "emotion": "neutral",
+          "key_phrases": [
+            "thik hai",
+            "Just the nominal amount",
+            "hai theek hai"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.51,
+          "emotion": "neutral",
+          "key_phrases": [
+            "kyonki ye aapke paas credit card nahi hai na Agar credit card hota hai toh",
+            "log isko website",
+            "kar dete hai"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.34,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.32,
+          "emotion": "neutral",
+          "key_phrases": [
+            "pe mujhe call"
+          ],
+          "score": -0.5
+        },
+        {
+          "confidence": 0.33,
+          "emotion": "neutral",
+          "key_phrases": [
+            "Initially hota",
+            "hai jab aapka EMI facility check hota hai matlab documents",
+            "ho jaayenge"
+          ],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.32,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.52,
+          "emotion": "neutral",
+          "key_phrases": [
+            "remaining fees hai usko AAP",
+            "kar lijiye calculate rupay vahi aapko",
+            "precisely utana hi aayega"
+          ],
+          "score": -1.0
+        },
+        {
+          "confidence": 0.66,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 0.0
+        },
+        {
+          "confidence": 0.51,
+          "emotion": "neutral",
+          "key_phrases": [],
+          "score": 1.0
+        },
+        {
+          "confidence": 0.51,
+          "emotion": "neutral",
+          "key_phrases": [
+            "no issue"
+          ],
+          "score": -1.0
+        }
+      ],
+      "top_emotions": [
+        [
+          "neutral",
+          18
+        ],
+        [
+          "sadness",
+          1
+        ]
+      ],
+      "avg_sentiment": -0.34
+    }
+  },
+  "timeline": [
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.52,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "timestamp": "[00:00]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.27,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.5
+      },
+      "timestamp": "[00:01]",
+      "speaker": "Customer"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.59,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "timestamp": "[00:01]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.52,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "timestamp": "[00:10]",
+      "speaker": "Customer"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.49,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Ki AAP",
+          "pe apne parents",
+          "ya fir matlab Jo bhi aapke behalf"
+        ],
+        "score": -1.0
+      },
+      "timestamp": "[00:10]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {
+        "pricing": 1.0
+      },
+      "sentiment": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [
+          "So basically the person",
+          "my fees",
+          "us KA"
+        ],
+        "score": -1.0
+      },
+      "timestamp": "[00:25]",
+      "speaker": "Customer"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.46,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Some details",
+          "proper set",
+          "detail aapko"
+        ],
+        "score": 0.0
+      },
+      "timestamp": "[00:28]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.59,
+        "emotion": "neutral",
+        "key_phrases": [
+          "toh aapne Jo list",
+          "hi bhejna hai right"
+        ],
+        "score": 0.0
+      },
+      "timestamp": "[00:35]",
+      "speaker": "Customer"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.26,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Kar dijiye taki Mein aaj",
+          "ye documents",
+          "bhej Doon"
+        ],
+        "score": -1.0
+      },
+      "timestamp": "[00:38]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.4,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "timestamp": "[00:43]",
+      "speaker": "Customer"
+    },
+    {
+      "topics": {
+        "product": 1.0
+      },
+      "sentiment": {
+        "confidence": 0.67,
+        "emotion": "sadness",
+        "key_phrases": [
+          "registration centre",
+          "ke andar andar",
+          "EMI ke liye documents"
+        ],
+        "score": -1.0
+      },
+      "timestamp": "[00:45]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.54,
+        "emotion": "neutral",
+        "key_phrases": [
+          "some one point",
+          "some processing charge",
+          "different processing charge"
+        ],
+        "score": 0.0
+      },
+      "timestamp": "[01:00]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.32,
+        "emotion": "neutral",
+        "key_phrases": [
+          "processing charge"
+        ],
+        "score": 0.5
+      },
+      "timestamp": "[01:14]",
+      "speaker": "Customer"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.37,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Processing charges"
+        ],
+        "score": 1.0
+      },
+      "timestamp": "[01:17]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.34,
+        "emotion": "sadness",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "timestamp": "[01:18]",
+      "speaker": "Customer"
+    },
+    {
+      "topics": {
+        "pricing": 1.0
+      },
+      "sentiment": {
+        "confidence": 0.4,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Ki AAP koi bhi jis market Mein lete ho right",
+          "10% interest",
+          "15% interest"
+        ],
+        "score": -1.0
+      },
+      "timestamp": "[01:20]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.36,
+        "emotion": "neutral",
+        "key_phrases": [
+          "thik hai",
+          "Just the nominal amount",
+          "hai theek hai"
+        ],
+        "score": -1.0
+      },
+      "timestamp": "[01:46]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.51,
+        "emotion": "neutral",
+        "key_phrases": [
+          "kyonki ye aapke paas credit card nahi hai na Agar credit card hota hai toh",
+          "log isko website",
+          "kar dete hai"
+        ],
+        "score": -1.0
+      },
+      "timestamp": "[01:52]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "timestamp": "[01:59]",
+      "speaker": "Customer"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "timestamp": "[02:01]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.32,
+        "emotion": "neutral",
+        "key_phrases": [
+          "pe mujhe call"
+        ],
+        "score": -0.5
+      },
+      "timestamp": "[02:02]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {
+        "pricing": 1.0
+      },
+      "sentiment": {
+        "confidence": 0.26,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "timestamp": "[02:10]",
+      "speaker": "Customer"
+    },
+    {
+      "topics": {
+        "support": 1.0
+      },
+      "sentiment": {
+        "confidence": 0.33,
+        "emotion": "neutral",
+        "key_phrases": [
+          "Initially hota",
+          "hai jab aapka EMI facility check hota hai matlab documents",
+          "ho jaayenge"
+        ],
+        "score": 0.0
+      },
+      "timestamp": "[02:13]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.25,
+        "emotion": "neutral",
+        "key_phrases": [
+          "so I"
+        ],
+        "score": 1.0
+      },
+      "timestamp": "[02:25]",
+      "speaker": "Customer"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.34,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "timestamp": "[02:29]",
+      "speaker": "Customer"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.32,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "timestamp": "[02:33]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.48,
+        "emotion": "neutral",
+        "key_phrases": [
+          "EMI kitna",
+          "kar dunga"
+        ],
+        "score": -1.0
+      },
+      "timestamp": "[02:34]",
+      "speaker": "Customer"
+    },
+    {
+      "topics": {
+        "pricing": 1.0
+      },
+      "sentiment": {
+        "confidence": 0.52,
+        "emotion": "neutral",
+        "key_phrases": [
+          "remaining fees hai usko AAP",
+          "kar lijiye calculate rupay vahi aapko",
+          "precisely utana hi aayega"
+        ],
+        "score": -1.0
+      },
+      "timestamp": "[02:40]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {
+        "pricing": 1.0
+      },
+      "sentiment": {
+        "confidence": 0.3,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": -1.0
+      },
+      "timestamp": "[02:48]",
+      "speaker": "Customer"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.66,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "timestamp": "[02:54]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.3,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 0.0
+      },
+      "timestamp": "[02:54]",
+      "speaker": "Customer"
+    },
+    {
+      "topics": {
+        "technical": 1.0
+      },
+      "sentiment": {
+        "confidence": 0.59,
+        "emotion": "joy",
+        "key_phrases": [
+          "Yeah, no issue"
+        ],
+        "score": 0.0
+      },
+      "timestamp": "[02:58]",
+      "speaker": "Customer"
+    },
+    {
+      "topics": {},
+      "sentiment": {
+        "confidence": 0.51,
+        "emotion": "neutral",
+        "key_phrases": [],
+        "score": 1.0
+      },
+      "timestamp": "[03:02]",
+      "speaker": "Sales Agent"
+    },
+    {
+      "topics": {
+        "technical": 1.0
+      },
+      "sentiment": {
+        "confidence": 0.51,
+        "emotion": "neutral",
+        "key_phrases": [
+          "no issue"
+        ],
+        "score": -1.0
+      },
+      "timestamp": "[03:02]",
+      "speaker": "Sales Agent"
+    }
+  ],
+  "topics": {
+    "pricing": 0.56,
+    "product": 0.11,
+    "support": 0.11,
+    "technical": 0.22
+  },
+  "overall_sentiment": {
+    "confidence": 0.42,
+    "score": -0.22
+  }
+}
