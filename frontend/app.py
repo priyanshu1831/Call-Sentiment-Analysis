@@ -241,14 +241,28 @@ def show_register_page():
 def call_api(transcript):
     """Call the analysis API with proper URL."""
     try:
-        # Use the Railway-provided URL with the correct port
-        api_url = "http://call-sentiment-analysis.railway.internal:8080"
+        # Determine the API URL based on environment
+        api_url = os.getenv(
+            'BACKEND_URL',
+            'http://localhost:8080'  # Default to localhost in development
+        )
         
+        # Ensure the endpoint is correctly appended
+        api_endpoint = f"{api_url}/analyze"
+        
+        # Make the API call with proper headers
         response = requests.post(
-            api_url,
+            api_endpoint,
             json={'transcript': transcript},
+            headers={
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
             timeout=30
         )
+        
+        # Log the response status
+        st.debug(f"API Response Status: {response.status_code}")
         
         response.raise_for_status()  # Raise error for bad status codes
         
@@ -256,11 +270,18 @@ def call_api(transcript):
             return process_api_response(response.json())
         else:
             st.error(f"API Error: {response.status_code}")
+            if response.text:
+                st.error(f"Error details: {response.text}")
             return None
             
     except requests.exceptions.RequestException as e:
         st.error(f"Connection Error: {str(e)}")
-        st.info("Please check if the backend service is running")
+        st.info("""
+        Please check:
+        1. Backend service is running
+        2. API URL is correct ({api_url})
+        3. Network connection is stable
+        """)
         return None
     except Exception as e:
         st.error(f"Error: {str(e)}")
@@ -705,72 +726,123 @@ def main():
                 # Analyze transcript
                 with st.spinner("🔍 Analyzing transcript..."):
                     try:
-                        # Make API call
-                        api_url = "https://call-sentiment-analysis-production.up.railway.app/analyze"
+                        # Determine API URL based on environment
+                        api_url = os.getenv(
+                            'BACKEND_URL',
+                            'http://call-sentiment-analysis.railway.internal:8080/analyze'
+                        )
                         
+                        # Ensure URL ends with /analyze
+                        if not api_url.endswith('/analyze'):
+                            api_url = f"{api_url}/analyze"
+                        
+                        # Log API call details in debug expander
+                        with st.expander("Debug: API Request"):
+                            st.code(f"URL: {api_url}")
+                            st.json({'transcript': transcript[:2]})  # Show first 2 entries
+                        
+                        # Make API call with proper headers
                         response = requests.post(
                             api_url,
                             json={'transcript': transcript},
-                            headers={'Content-Type': 'application/json'},
+                            headers={
+                                'Content-Type': 'application/json',
+                                'Accept': 'application/json',
+                                'Origin': 'https://call-sentiment-analysis-production.up.railway.app'
+                            },
                             timeout=30
                         )
                         
                         # Debug response
                         with st.expander("Debug: API Response"):
-                            st.json(response.json())
+                            st.write("Status Code:", response.status_code)
+                            st.write("Response Headers:", dict(response.headers))
+                            try:
+                                st.json(response.json())
+                            except:
+                                st.text(response.text)
                         
+                        # Handle response
                         if response.status_code == 200:
-                            # Process response
-                            results = process_api_response(response.json())
-                            
-                            if results:
-                                # Save analysis results
-                                storage.save_analysis(
-                                    st.session_state.user_id,
-                                    filename,
-                                    results
-                                )
+                            try:
+                                results = process_api_response(response.json())
                                 
-                                # Show success message
-                                st.success("✅ Analysis completed successfully!")
-                                
-                                # Show results
-                                show_analysis_results(results)
-                                
-                                # Offer download
-                                st.download_button(
-                                    "💾 Download Analysis Results",
-                                    data=json.dumps(results, indent=2),
-                                    file_name=f"analysis_{datetime.now().strftime('%Y%m%d_%H%M')}.json",
-                                    mime="application/json"
-                                )
-                            else:
-                                st.error("Error processing analysis results")
+                                if results:
+                                    # Save analysis results
+                                    storage.save_analysis(
+                                        st.session_state.user_id,
+                                        filename,
+                                        results
+                                    )
+                                    
+                                    # Show success message
+                                    st.success("✅ Analysis completed successfully!")
+                                    
+                                    # Show results
+                                    show_analysis_results(results)
+                                    
+                                    # Offer download
+                                    st.download_button(
+                                        "💾 Download Analysis Results",
+                                        data=json.dumps(results, indent=2),
+                                        file_name=f"analysis_{datetime.now().strftime('%Y%m%d_%H%M')}.json",
+                                        mime="application/json"
+                                    )
+                                else:
+                                    st.error("Error: Received empty results from API")
+                                    st.info("Please try again or contact support if the issue persists.")
+                            except Exception as e:
+                                st.error(f"Error processing API response: {str(e)}")
+                                with st.expander("Debug Details"):
+                                    st.code(traceback.format_exc())
                         else:
-                            st.error(f"Analysis failed: {response.text}")
-                            st.json(response.json())  # Show error details
-                    
+                            st.error(f"API Error (Status {response.status_code})")
+                            with st.expander("Error Details"):
+                                st.write("Response Headers:", dict(response.headers))
+                                try:
+                                    st.json(response.json())
+                                except:
+                                    st.text(response.text)
+                            
+                            # Provide specific guidance based on status code
+                            if response.status_code == 403:
+                                st.info("""
+                                Access forbidden. This might be due to:
+                                1. CORS configuration issues
+                                2. Missing or invalid authentication
+                                3. Server security settings
+                                """)
+                            elif response.status_code == 404:
+                                st.info("API endpoint not found. Please check the API URL configuration.")
+                            elif response.status_code == 500:
+                                st.info("Server error. Please try again later or contact support.")
+                            
                     except requests.exceptions.RequestException as e:
-                        st.error(f"Error connecting to analysis service: {str(e)}")
+                        st.error("Connection Error")
+                        with st.expander("Error Details"):
+                            st.write(f"Error Type: {type(e).__name__}")
+                            st.write(f"Error Message: {str(e)}")
+                            if hasattr(e, 'response'):
+                                st.write("Response Status:", e.response.status_code)
+                                st.write("Response Headers:", dict(e.response.headers))
+                                try:
+                                    st.json(e.response.json())
+                                except:
+                                    st.text(e.response.text)
+                        
                         st.info("""
                         Please check:
                         1. Backend service is running
                         2. API URL is correct
                         3. Network connection is stable
+                        4. Environment variables are properly set
                         """)
-                        with st.expander("Debug Details"):
-                            st.code(str(e))
-                        st.stop()
-                    
-                    except Exception as e:
-                        st.error(f"Unexpected error: {str(e)}")
-                        with st.expander("Debug Details"):
-                            st.code(traceback.format_exc())
-                        st.stop()
-                
+        
             except Exception as e:
-                st.error(f"Error processing file: {str(e)}")
-                with st.expander("Debug Details"):
+                st.error("Unexpected Error")
+                with st.expander("Error Details"):
+                    st.write(f"Error Type: {type(e).__name__}")
+                    st.write(f"Error Message: {str(e)}")
                     st.code(traceback.format_exc())
                 st.info("Please check your transcript format and try again.")
 

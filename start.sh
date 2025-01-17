@@ -14,6 +14,27 @@ check_process() {
     fi
 }
 
+# Function to wait for backend health
+wait_for_backend() {
+    local retries=30
+    local wait_time=2
+    local endpoint="http://localhost:8080/healthz"
+    
+    log "Waiting for backend to be ready..."
+    
+    for i in $(seq 1 $retries); do
+        if curl -s -f $endpoint > /dev/null; then
+            log "Backend is ready!"
+            return 0
+        fi
+        log "Backend not ready yet (attempt $i/$retries)..."
+        sleep $wait_time
+    done
+    
+    log "ERROR: Backend failed to become ready"
+    return 1
+}
+
 # Function to handle cleanup on script exit
 cleanup() {
     log "Cleaning up processes..."
@@ -46,12 +67,9 @@ log "Starting backend service on port $FLASK_PORT..."
 python backend/app.py &
 BACKEND_PID=$!
 
-# Wait for backend to start
-sleep 5
-
-# Check if backend started successfully
-if ! check_process $BACKEND_PID; then
-    log "ERROR: Backend failed to start"
+# Wait for backend to be healthy
+if ! wait_for_backend; then
+    log "ERROR: Backend failed to start properly"
     cleanup
     exit 1
 fi
