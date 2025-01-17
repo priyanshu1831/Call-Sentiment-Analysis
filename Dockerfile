@@ -2,7 +2,7 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-# Install system dependencies
+# Install system dependencies including curl for health checks
 RUN apt-get update && apt-get install -y \
     build-essential \
     curl \
@@ -16,12 +16,12 @@ COPY frontend/requirements.txt ./frontend/requirements.txt
 RUN pip install --no-cache-dir -r backend/requirements.txt \
     && pip install --no-cache-dir -r frontend/requirements.txt
 
+# Create directory structure
+RUN mkdir -p backend frontend data
+
 # Copy both applications
 COPY backend ./backend
 COPY frontend ./frontend
-
-# Make directory for data
-RUN mkdir -p data
 
 # Create and make start script executable
 COPY start.sh .
@@ -29,7 +29,7 @@ RUN chmod +x start.sh
 
 # Set environment variables
 ENV PORT=8501
-ENV BACKEND_URL=http://call-sentiment-analysis.railway.internal:8080
+ENV BACKEND_URL=http://localhost:8080
 ENV FLASK_APP=backend/app.py
 ENV FLASK_ENV=production
 ENV FLASK_PORT=8080
@@ -39,6 +39,10 @@ ENV CORS_ALLOW_ORIGIN=*
 # Expose both ports
 EXPOSE 8080
 EXPOSE 8501
+
+# Health check for the backend service
+HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 \
+    CMD curl -f http://localhost:8080/healthz || exit 1
 
 # Start both services using the start script
 CMD ["./start.sh"]

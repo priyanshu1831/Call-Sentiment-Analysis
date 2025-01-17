@@ -56,16 +56,18 @@ trap cleanup SIGTERM SIGINT
 : ${FLASK_HOST:=0.0.0.0}
 : ${STREAMLIT_SERVER_ADDRESS:=0.0.0.0}
 
-log "Starting services with PORT=$PORT"
+log "Starting services..."
 
 # Create necessary directories
 mkdir -p data
 log "Created data directory"
 
 # Start backend service
+cd backend
 log "Starting backend service on port $FLASK_PORT..."
-python backend/app.py &
+python app.py &
 BACKEND_PID=$!
+cd ..
 
 # Wait for backend to be healthy
 if ! wait_for_backend; then
@@ -77,9 +79,11 @@ fi
 log "Backend service started successfully (PID: $BACKEND_PID)"
 
 # Start frontend service
+cd frontend
 log "Starting frontend service on port $PORT..."
-streamlit run frontend/app.py --server.port $PORT --server.address $STREAMLIT_SERVER_ADDRESS &
+streamlit run app.py --server.port $PORT --server.address $STREAMLIT_SERVER_ADDRESS &
 FRONTEND_PID=$!
+cd ..
 
 # Wait for frontend to start
 sleep 5

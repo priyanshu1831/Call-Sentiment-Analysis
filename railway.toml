@@ -4,10 +4,15 @@ dockerfilePath = "./Dockerfile"
 
 [deploy]
 startCommand = "./start.sh"
-healthcheckPath = "/healthz"
-healthcheckTimeout = 30
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 5
+
+[deploy.healthcheck]
+path = "/healthz"
+port = 8080
+timeout = 30
+interval = 15
+retries = 3
 
 [[deploy.env]]
 key = "BACKEND_URL"
