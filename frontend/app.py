@@ -241,45 +241,43 @@ def show_register_page():
 def call_api(transcript):
     """Call the analysis API with proper URL."""
     try:
-        # Determine the API URL based on environment
-        api_url = os.getenv(
-            'BACKEND_URL',
-            'http://localhost:8080'  # Default to localhost in development
-        )
+        # Get base API URL and construct endpoint
+        base_url = get_api_url()
+        api_url = f"{base_url}/analyze"
         
-        # Ensure the endpoint is correctly appended
-        api_endpoint = f"{api_url}/analyze"
+        # Log request details
+        st.debug(f"Making request to: {api_url}")
         
-        # Make the API call with proper headers
+        # Make API call with updated headers
         response = requests.post(
-            api_endpoint,
+            api_url,
             json={'transcript': transcript},
             headers={
                 'Content-Type': 'application/json',
-                'Accept': 'application/json'
+                'Accept': 'application/json',
+                'Origin': 'https://call-sentiment-analysis-production.up.railway.app'
             },
             timeout=30
         )
         
-        # Log the response status
-        st.debug(f"API Response Status: {response.status_code}")
+        # Debug logging
+        st.debug(f"Response status: {response.status_code}")
+        st.debug(f"Response headers: {dict(response.headers)}")
         
-        response.raise_for_status()  # Raise error for bad status codes
-        
+        # Handle response
         if response.status_code == 200:
             return process_api_response(response.json())
         else:
             st.error(f"API Error: {response.status_code}")
-            if response.text:
-                st.error(f"Error details: {response.text}")
+            st.error(f"Error details: {response.text}")
             return None
             
     except requests.exceptions.RequestException as e:
         st.error(f"Connection Error: {str(e)}")
-        st.info("""
+        st.info(f"""
         Please check:
         1. Backend service is running
-        2. API URL is correct ({api_url})
+        2. API URL is correct (currently: {api_url})
         3. Network connection is stable
         """)
         return None
@@ -510,6 +508,17 @@ def show_user_history():
                     with open(analysis_path) as f:
                         analysis_data = json.load(f)
                         show_analysis_results(analysis_data)
+                        
+def get_api_url():
+    """Get the API URL based on the environment"""
+    base_url = os.getenv(
+        'BACKEND_URL',
+        'http://call-sentiment-analysis.railway.internal:8080'
+    ).rstrip('/')
+    
+    # Log the URL for debugging
+    st.debug(f"Base API URL: {base_url}")
+    return base_url
 
 def show_analysis_results(results):
     """Display complete analysis results."""
@@ -726,22 +735,14 @@ def main():
                 # Analyze transcript
                 with st.spinner("🔍 Analyzing transcript..."):
                     try:
-                        # Determine API URL based on environment
-                        api_url = os.getenv(
-                            'BACKEND_URL',
-                            'http://call-sentiment-analysis.railway.internal:8080/analyze'
-                        )
+                        # Get base API URL
+                        base_url = get_api_url()
+                        api_url = f"{base_url}/analyze"
                         
-                        # Ensure URL ends with /analyze
-                        if not api_url.endswith('/analyze'):
-                            api_url = f"{api_url}/analyze"
+                        # Log request details
+                        st.debug(f"Making request to: {api_url}")
                         
-                        # Log API call details in debug expander
-                        with st.expander("Debug: API Request"):
-                            st.code(f"URL: {api_url}")
-                            st.json({'transcript': transcript[:2]})  # Show first 2 entries
-                        
-                        # Make API call with proper headers
+                        # Make API call with updated headers
                         response = requests.post(
                             api_url,
                             json={'transcript': transcript},
@@ -755,6 +756,12 @@ def main():
                         
                         # Debug response
                         with st.expander("Debug: API Response"):
+                            st.write("Request URL:", api_url)
+                            st.write("Request Headers:", {
+                                'Content-Type': 'application/json',
+                                'Accept': 'application/json',
+                                'Origin': 'https://call-sentiment-analysis-production.up.railway.app'
+                            })
                             st.write("Status Code:", response.status_code)
                             st.write("Response Headers:", dict(response.headers))
                             try:

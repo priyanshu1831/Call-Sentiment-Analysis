@@ -12,3 +12,11 @@ restartPolicyMaxRetries = 5
 [[deploy.env]]
 key = "BACKEND_URL"
 value = "http://call-sentiment-analysis.railway.internal:8080"
+
+[[deploy.env]]
+key = "FLASK_ENV"
+value = "production"
+
+[[deploy.env]]
+key = "PORT"
+value = "8501"
